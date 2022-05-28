@@ -13,11 +13,10 @@
     <!-- Script para el navbar -->
 
     <style>
-        .carousel-item > img {
+        .carousel-item>img {
             width: 100%;
             height: 700px;
         }
-
     </style>
 
 </head>
@@ -31,7 +30,7 @@
 
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#">Dinoto</a>
+            <a class="navbar-brand text-warning" href="#">Dinoto</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -53,9 +52,9 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item " href="#">Acústico</a></li>
                             <li><a class="dropdown-item " href="#">Instrumentos de viento</a></li>
-                            <li>
+                            <!-- <li>
                                 <hr class="dropdown-divider">
-                            </li>
+                            </li> -->
                             <li><a class="dropdown-item" href="#">Percusión</a></li>
                         </ul>
                     </li>
@@ -70,47 +69,104 @@
             </div>
         </div>
     </nav>
-    
+
     <!-- Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://1.bp.blogspot.com/-bN1wycOZRL4/XwjPVrigOWI/AAAAAAAAMI0/UQPoGivDWUsi3IXiCcqhqomC6PKQTVecwCLcBGAsYHQ/s1600/Cuerdas%2BGuitarra%2BAcustica.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Guitarras acústicas</h5>
-                <p>Guitarras acústicas de buena calidad a su alcance</p>
+            <div class="carousel-item active">
+                <img src="https://1.bp.blogspot.com/-bN1wycOZRL4/XwjPVrigOWI/AAAAAAAAMI0/UQPoGivDWUsi3IXiCcqhqomC6PKQTVecwCLcBGAsYHQ/s1600/Cuerdas%2BGuitarra%2BAcustica.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Guitarras acústicas</h5>
+                    <p>Guitarras acústicas de buena calidad a su alcance</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.ejemplos.co/wp-content/uploads/2015/07/harmonica-2619860_1280-min-e1520882749134.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Instrumentos de viento</h5>
-                <p>Disponibles en la marca Hohner, Besson, Buffet Crampon, entre otros. </p>
+            <div class="carousel-item">
+                <img src="https://www.ejemplos.co/wp-content/uploads/2015/07/harmonica-2619860_1280-min-e1520882749134.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Instrumentos de viento</h5>
+                    <p>Disponibles en la marca Hohner, Besson, Buffet Crampon, entre otros. </p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.musicalortiz.com/wp-content/uploads/2021/02/tipos-de-instrumentos-de-percusion.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Elementos de percusión</h5>
-                <p>Porqué la base musical es importante</p>
+            <div class="carousel-item">
+                <img src="https://www.musicalortiz.com/wp-content/uploads/2021/02/tipos-de-instrumentos-de-percusion.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Elementos de percusión</h5>
+                    <p>Porqué la base musical es importante</p>
+                </div>
             </div>
-          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
 
+    <!-- Card -->
+
+    <div class="card text-center text-bg-warning mb-3" style="max-width: 100%;">
+        <div class="card-header">
+            ¡Oferta!
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Descuentos en instrumentos</h5>
+            <p class="card-text">Descuentos de hasta el 20% en compras superiores a $50</p>
+            <a href="#" class="btn btn-primary">Mas información</a>
+        </div>
+
+        <!-- Blockquote -->
+    </div>
+    <blockquote class="blockquote text-center">
+        <p class="mb-0">La música da alma al universo, alas a la mente, vuelos a la imaginación, consuelo a la tristeza,
+            vida y alegría a todas las cosas</p>
+        <p></p>
+        <footer class="blockquote-footer">Platón <cite title="Source Title"></cite></footer>
+    </blockquote>
+
+    <!-- Buttons -->
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Accesorios</h5>
+                    <p class="card-text">Todo en accesorios para tus instrumentos ideales</p>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <a href="#" class="btn btn-primary">Visitar la tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
 
 
 </body>
